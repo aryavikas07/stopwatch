@@ -17,7 +17,7 @@ class StopwatchApp:
 
         # Time Display Label
         self.time_label = tk.Label(master, text="00:00:00.000", font=("Helvetica", 24), pady=20)
-        self.time_label.pack()-----
+        self.time_label.pack()
 
         # Buttons
         self.start_button = tk.Button(master, text="Start", width=10, command=self.start)
